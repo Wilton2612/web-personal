@@ -4,7 +4,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactoComponent  } from './contacto/contacto.component';
 import { ProyectoComponent } from './proyecto/proyecto.component';
 import { ResumenComponent } from './resumen/resumen.component';
-
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 const routes: Routes = [
   {
@@ -29,8 +29,12 @@ const routes: Routes = [
   },
 
   {
-    path: 'proyecto',
+    path: 'proyectos',
     component: ProyectoComponent
+  },
+  {
+    path: '**',
+    component: PageNotFoundComponent
   }
 ];
 
