@@ -1,0 +1,64 @@
+:root
+{
+  --decoracion: none;
+  --organizar-display: inline-block;
+  --color: white;
+}
+
+
+.nav-mayor
+{
+
+  font-size: 2.0rem;
+  background-color: #4d4dff;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+.name
+{
+  display: inline-block;
+  margin-left: 100px;
+  list-style-type: square;
+  color: white;
+}
+
+
+.about
+{
+  margin-left: 430px;
+  text-decoration: var(--decoracion);
+  display: inline-block;
+  color: white;
+  
+}
+
+.resumen
+{
+  text-decoration: var(--decoracion);
+  display: inline-block;
+  padding-left: 25px;
+  color: white;
+}
+
+
+.proyecto
+{
+  text-decoration: var(--decoracion);
+  display: inline-block;
+  padding-left: 25px;
+  color: white;
+}
+
+
+.contacto
+{
+  text-decoration: var(--decoracion);
+  display: inline-block;
+  padding-left: 25px;
+  color: white;
+}
+
+

@@ -1,0 +1,119 @@
+:root
+{
+  --decoracion: none;
+  --organizar-display: inline-block;
+
+}
+
+
+.lado1
+{
+  width: 700px;
+  height: 500px;
+  /*background-color: #d2e9ff;*/
+  position: relative;
+
+}
+
+.contenedor
+{
+  display: flex;
+}
+
+img
+{
+  width: 25vw;
+    height: 50vh;
+    border-radius: 180px;
+}
+
+.nombre 
+{
+  font-size: 3.0rem;
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+.profesion{
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: #4d4dff solid 3px ;
+}
+
+.redes-value
+{
+  
+  margin-left: 130px;
+ /* background-color: green;*/
+  display: var(--organizar-display);
+  text-align: center;
+}
+
+
+
+.facebook
+{
+
+ 
+  display: var(--organizar-display) ;
+  color: #884dff;
+}
+
+.linkedin
+{
+  padding-left: 15px;
+  display: var(--organizar-display) ;
+  color: #884dff;
+
+}
+
+.instagram
+{
+  padding-left: 15px;
+  display: var(--organizar-display) ;
+  color: #884dff;
+}
+
+.sub-section
+{
+  /*border: black solid 1px;*/
+  position: absolute;
+  top: 10px;
+  left: 150px;
+  padding-bottom: 10px;
+  box-shadow: -5px 5px 5px #4d4dff;
+}
+
+.lado2
+{
+  width: 700px;
+  height: 500px;
+  /*background-color: #d2e9ff;*/
+  /*border: black solid 1px;*/
+  border-left: #4d4dff solid 3px ;
+  position: relative;
+}
+
+.sub-2
+{
+  position: absolute;
+  text-align: center;
+  border: black solid 2px;
+}
+
+.saludo
+{
+
+  font-size: 4.0rem;
+  text-align: center;
+}
+
+.descripcion
+{
+
+  font-size: 2.0rem;
+  
+}

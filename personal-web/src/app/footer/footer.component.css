@@ -1,0 +1,94 @@
+:root
+{
+  --organizar-display: inline-block;
+  --color: white;
+}
+
+
+.mayor
+{
+  font-size: 2.0rem;
+  background-color: #884dff;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.redes
+{
+  margin-left: 250px;
+  /*background-color: green;*/
+  display: var(--organizar-display);
+}
+
+.derecho
+{
+  margin-left: 100px;
+  /*background-color: red;*/
+  display: var(--organizar-display);
+}
+
+.telefono
+{
+  margin-left: 300px;
+  /*background-color: yellow;*/
+  display: var(--organizar-display);
+}
+
+.correo
+{
+  margin-left: 230px;
+  /*background-color: aqua;*/
+  display: var(--organizar-display) ;
+}
+
+.redes-value
+{
+  margin-left: 160px;
+ /* background-color: green;*/
+  display: var(--organizar-display);
+}
+
+
+.telefono-value
+{
+  margin-left: 590px;
+  /*background-color: yellow;*/
+  display: var(--organizar-display);
+}
+
+.correo-value
+{
+  margin-left: 100px;
+  /*background-color: aqua;*/
+  display: var(--organizar-display) ;
+}
+
+
+
+
+
+
+
+.facebook
+{
+
+ 
+  display: var(--organizar-display) ;
+  color: var(--color);
+}
+
+.linkedin
+{
+  padding-left: 15px;
+  display: var(--organizar-display) ;
+  color: var(--color);
+}
+
+.instagram
+{
+  padding-left: 15px;
+  display: var(--organizar-display) ;
+  color: var(--color);
+}
