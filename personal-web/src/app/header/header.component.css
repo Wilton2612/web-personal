@@ -1,16 +1,11 @@
-:root
-{
+:root {
   --decoracion: none;
   --organizar-display: inline-block;
-
 }
 
-
-nav
-{
-
+nav {
   width: 100%;
-  font-size: 2.0rem;
+  font-size: 2rem;
   background-color: #4d4dff;
   height: 130px;
   /*padding-top: 40px;
@@ -20,66 +15,43 @@ nav
   grid-template-columns: 1fr 1fr;
 }
 
-
-nav .nav-name
-{
+nav .nav-name {
   justify-self: start;
   align-self: center;
   margin-left: 50px;
-
 }
 
-nav .nav-name a
-{
+nav .nav-name a {
   color: white;
-  text-decoration:  var(--decoracion);
+  text-decoration: var(--decoracion);
   font-size: 2.8rem;
 }
 
-
-
 nav .nav-links-container {
-
-  display: grid;
   place-self: center;
-
 }
 
-
-
-
-
-.about
-{
-
+.about {
   text-decoration: var(--decoracion);
   color: white;
-
 }
 
-.resumen
-{
+.resumen {
   text-decoration: var(--decoracion);
 
   padding-left: 25px;
   color: white;
 }
 
-
-.proyecto
-{
+.proyecto {
   text-decoration: var(--decoracion);
   padding-left: 25px;
   color: white;
 }
 
-
-.contacto
-{
+.contacto {
   text-decoration: var(--decoracion);
 
   padding-left: 25px;
   color: white;
 }
-
-

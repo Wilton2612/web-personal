@@ -1,94 +1,55 @@
-:root
-{
+:root {
   --organizar-display: inline-block;
   --color: white;
 }
 
-
-.mayor
-{
-  font-size: 2.0rem;
+footer {
+  width: 100%;
+  height: 200px;
+  font-size: 2rem;
   background-color: #884dff;
   color: white;
   padding-top: 50px;
   padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-
-.redes
-{
-  margin-left: 250px;
-  /*background-color: green;*/
-  display: var(--organizar-display);
+footer .container-links-otros {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-self: center;
+  gap: 10px;
 }
 
-.derecho
-{
-  margin-left: 100px;
-  /*background-color: red;*/
-  display: var(--organizar-display);
+footer .container-links-derecho {
+  margin-left: 50px;
+  align-self: center;
 }
 
-.telefono
-{
-  margin-left: 300px;
-  /*background-color: yellow;*/
-  display: var(--organizar-display);
+footer .container-links-otros .telefono {
+  text-align: center;
 }
 
-.correo
-{
-  margin-left: 230px;
-  /*background-color: aqua;*/
-  display: var(--organizar-display) ;
+footer .container-links-otros .correo {
+  text-align: center;
 }
 
-.redes-value
-{
-  margin-left: 160px;
- /* background-color: green;*/
-  display: var(--organizar-display);
+footer .container-links-otros .redes {
+  text-align: center;
 }
 
-
-.telefono-value
-{
-  margin-left: 590px;
-  /*background-color: yellow;*/
-  display: var(--organizar-display);
+footer .container-links-otros .redes .facebook {
+  color: white;
+  padding-left: 10px;
 }
 
-.correo-value
-{
-  margin-left: 100px;
-  /*background-color: aqua;*/
-  display: var(--organizar-display) ;
+footer .container-links-otros .redes .linkedin {
+  color: white;
+  padding-left: 10px;
 }
 
-
-
-
-
-
-
-.facebook
-{
-
- 
-  display: var(--organizar-display) ;
-  color: var(--color);
-}
-
-.linkedin
-{
-  padding-left: 15px;
-  display: var(--organizar-display) ;
-  color: var(--color);
-}
-
-.instagram
-{
-  padding-left: 15px;
-  display: var(--organizar-display) ;
-  color: var(--color);
+footer .container-links-otros .redes .instagram {
+  color: white;
+  padding-left: 10px;
 }
