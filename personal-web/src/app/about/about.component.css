@@ -13,10 +13,12 @@ main {
 
 main .main-perfil {
 
-  padding-top: 30px;
+
   height: 500px;
   position: relative;
   place-self: center;
+  margin-top: 40px;
+    margin-bottom: 30px
 
 }
 
@@ -79,26 +81,60 @@ main .main-perfil .main-perfil-container img {
   color: #884dff;
 }
 
-.main-descripcion {
-  width: 100%;
-  height: 500px;
+main .main-descripcion {
+
   /*background-color: #d2e9ff;*/
   /*border: black solid 1px;*/
-  border-left: #4d4dff solid 3px;
+  /*border-left: #4d4dff solid 3px;*/
   position: relative;
+  place-self: center;
+  margin-right: 160px;
+
+
+
 }
 
+/*
 main .main-descripcion .main-descripcion-container {
   position: absolute;
-  text-align: center;
+  display: grid;
   border: black solid 2px;
+  grid-template-rows: repeat(2, 1fr);;
 }
-
+*/
 .saludo {
-  font-size: 4rem;
+  font-size: 10rem;
+  place-self: center;
   text-align: center;
+
 }
 
 .descripcion {
   font-size: 2rem;
+  place-self: center;
+  text-align: justify;
 }
+
+
+main .main-descripcion .botones
+{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+
+}
+
+
+main .main-descripcion .botones .btn{
+
+  border-bottom: #4d4dff solid 3px;
+  place-self: left center;
+  font-size: 1.6rem;
+
+
+}
+
+.btn:hover {
+  background-color:#884dff;
+}
+
