@@ -1,0 +1,260 @@
+:root {
+  --decoracion: none;
+  --organizar-display: inline-block;
+
+}
+
+
+
+main {
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  /*font-size: 2.0rem;*/
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #7fddf0;
+
+}
+
+.resumen
+{
+  font-size: 4.0rem;
+  color: black;
+  text-align: center;
+  border-bottom: #4d4dff solid 4px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 20px;
+}
+
+
+h2{
+
+  font-size: 2.5rem;
+  color: black;
+  text-align: center;
+  border-bottom: #884dff solid 4px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 100px;
+}
+
+
+
+main .normal
+{
+  place-self: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 5px 5px 5px 5px;
+  border: 2px solid #4d4dff ;
+  box-shadow: 7px 7px 15px #4d4dff ;
+  margin-top: 60px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: white;
+
+
+}
+
+main .normal .date-normal
+{
+
+  place-self: center;
+
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  margin-bottom: 70px;
+}
+
+main .normal .date-normal .year
+{
+  font-size: 3.5rem;
+  color:#884dff;
+}
+
+main .normal .date-normal .institucion
+{
+
+  font-size: 1.6rem;
+  color:black;
+}
+
+main .normal .date-normal .ubicacion
+{
+
+  font-size: 2.0rem;
+  color:black;
+}
+
+
+main .normal .description-normal
+{
+
+  text-align: justify;
+  font-size: 2.0rem;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color:black;
+
+
+}
+
+
+main .andes
+{
+
+  place-self: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 5px 5px 5px 5px;
+  border: 2px solid #4d4dff ;
+  box-shadow: 7px 7px 15px #4d4dff ;
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: white;
+
+}
+
+
+
+main .andes .date-andes
+{
+
+  place-self: center;
+  font-weight: bold;
+
+
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 70px;
+
+}
+
+
+
+
+main .andes .date-andes .year2
+{
+  font-size: 3.5rem;
+  color:#884dff;
+}
+
+main .andes .date-andes .universidad
+{
+
+  font-size: 1.6rem;
+  color:black;
+}
+
+main .andes .date-andes .ubicacion2
+{
+
+  font-size: 2.0rem;
+  color:black;
+}
+
+
+main .andes .description-andes
+{
+
+  text-align: justify;
+  font-size: 2.0rem;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color:black;
+}
+
+
+
+
+
+main .empresa
+{
+
+  place-self: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 5px 5px 5px 5px;
+  border: 2px solid #4d4dff ;
+  box-shadow: 7px 7px 15px #4d4dff ;
+  margin-top: 60px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: white;
+  margin-bottom: 30px;
+
+}
+
+
+
+main .empresa .date-empresa
+{
+
+  place-self: center;
+  font-weight: bold;
+
+
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 70px;
+
+}
+
+
+
+
+main .empresa .date-empresa .year3
+{
+  font-size: 3.5rem;
+  color:#884dff;
+}
+
+main .empresa .date-empresa .universidad2
+{
+
+  font-size: 1.6rem;
+  color:black;
+}
+
+main .empresa .date-empresa .ubicacion3
+{
+
+  font-size: 2.0rem;
+  color:black;
+}
+
+
+main .empresa .description-empresa
+{
+
+  text-align: justify;
+  font-size: 2.0rem;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color:black;
+}
+
+
+
+
+
+
