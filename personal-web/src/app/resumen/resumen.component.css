@@ -256,5 +256,68 @@ main .empresa .description-empresa
 
 
 
+main .last
+{
+  place-self: center;
+  font-size: 2.0rem;
+  border-radius: 5px 5px 5px 5px;
+  border: 2px solid #4d4dff ;
+  box-shadow: 7px 7px 15px #4d4dff ;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(2 ,1fr);
+
+  margin-top: 60px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: white;
+  margin-bottom: 50px;
+  border-radius: 5px 5px 5px 5px;
+  border: 2px solid #4d4dff ;
+  box-shadow: 7px 7px 15px #4d4dff ;
+
+}
+
+
+main .last .skills
+{
+  place-self: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  list-style-type:none;
+
+}
+
+main .last .lenguages
+{
+  place-self: initial;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  list-style-type:none;
+
+
+
+}
+li
+{
+  line-height: 40px;
+  border-bottom: #4d4dff solid 6px;
+}
+
+h3
+{
+margin-top: 10px;
+margin-bottom: 20px;
+color: #4d4dff;
+font-weight:bold;
+
+
+}
+
+
 
 
