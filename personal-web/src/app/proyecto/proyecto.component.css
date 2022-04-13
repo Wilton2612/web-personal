@@ -1,0 +1,132 @@
+main {
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+main .introduccion {
+  color: black;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+main .introduccion .title {
+  font-size: 4rem;
+  font-weight: bolder;
+  color: #4d4dff;
+}
+
+main .introduccion .description {
+  font-size: 3rem;
+  text-align: justify;
+  margin-left: 20px;
+  border-left: #4d4dff solid 6px;
+  padding-left: 30px;
+  margin-top: 40px;
+}
+
+main .moto {
+  place-self: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 100px;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 7px 7px 15px #4d4dff;
+}
+
+main .moto .moto-title {
+  place-self: center;
+  margin-left: 70px;
+  margin-bottom: 100px;
+}
+
+main .moto .image-moto {
+  place-self: center;
+}
+
+main .moto .image-moto img {
+  max-width: 70%;
+  max-height: 70%;
+  object-fit: contain;
+  border-radius: 5px 5px 5px 5px;
+  margin-left: 70px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 2rem;
+  text-align: justify;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 3rem;
+  border-left: #4d4dff solid 6px;
+  color: #4d4dff;
+  margin-bottom: 30px;
+  padding-left: 30px;
+}
+
+main .ciclas {
+  place-self: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 100px;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 7px 7px 15px #4d4dff;
+}
+
+main .ciclas .ciclas-title {
+  place-self: center;
+  margin-left: 70px;
+  margin-bottom: 100px;
+}
+
+main .ciclas .image-ciclas {
+  place-self: center;
+}
+
+main .ciclas .image-ciclas img {
+  max-width: 70%;
+  max-height: 70%;
+  object-fit: contain;
+  border-radius: 5px 5px 5px 5px;
+  margin-left: 70px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+main .web {
+  place-self: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 100px;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 7px 7px 15px #4d4dff;
+}
+
+main .web .web-title {
+  place-self: center;
+  margin-left: 70px;
+  margin-bottom: 100px;
+}
+
+main .web .image-web {
+  place-self: center;
+}
+
+main .web .image-web img {
+  max-width: 70%;
+  max-height: 70%;
+  object-fit: contain;
+  border-radius: 5px 5px 5px 5px;
+  margin-left: 70px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}

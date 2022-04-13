@@ -1,5 +1,36 @@
 
 <app-header></app-header>
-<p>Informacion de contacto</p>
+<main>
+  <section class="title">
+    <h2>Escribeme</h2>
+  </section>
+  <form class="principal" action="" method="post">
+    <ul>
+      <li>
+        <label for="name">Nombre completo</label>
+        <input type="text" id="name" name="user_name">
+      </li>
+
+      <li>
+        <label for="mail">Correo electrónico</label>
+        <input type="email" id="mail" name="user_mail">
+      </li>
+      <li>
+        <label for="msg">Asunto</label>
+        <input id="msg_asunto" name="user_asunto" size="15" maxlength="30">
+      </li>
+      <li>
+        <label for="msg">Mensaje</label>
+        <textarea id="msg" name="user_message"></textarea>
+      </li>
+      <li class="button">
+        <button type="submit">Enviar</button>
+      </li>
+     </ul>
+
+  </form>
+
+
+</main>
 <app-footer></app-footer>
 

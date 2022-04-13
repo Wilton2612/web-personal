@@ -13,7 +13,7 @@ main {
   /*font-size: 2.0rem;*/
   padding-left: 100px;
   padding-right: 100px;
-  background-color: #7fddf0;
+  /*background-color: #7fddf0;*/
 
 }
 
@@ -56,6 +56,7 @@ main .normal
   background-color: white;
 
 
+
 }
 
 main .normal .date-normal
@@ -70,6 +71,7 @@ main .normal .date-normal
   padding-bottom: 20px;
 
   margin-bottom: 70px;
+  border-bottom: #884dff solid 6px;
 }
 
 main .normal .date-normal .year
@@ -131,15 +133,12 @@ main .andes .date-andes
 
   place-self: center;
   font-weight: bold;
-
-
-
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 70px;
-
+  border-bottom: #884dff solid 6px;
 }
 
 
@@ -206,15 +205,12 @@ main .empresa .date-empresa
 
   place-self: center;
   font-weight: bold;
-
-
-
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 70px;
-
+  border-bottom: #884dff solid 6px;
 }
 
 
