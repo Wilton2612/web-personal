@@ -1,7 +1,9 @@
 main {
   width: 100%;
-  padding-left: 250px;
-  padding-right: 250px;
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  padding-left: 300px;
+  padding-right: 300px;
 }
 
 
@@ -36,7 +38,7 @@ main .principal ul
 {
   text-align: center;
   display: grid;
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   list-style: none;
 
 
