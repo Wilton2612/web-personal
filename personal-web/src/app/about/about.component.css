@@ -1,7 +1,11 @@
+
+
 :root {
   --decoracion: none;
   --organizar-display: inline-block;
+  --color:#4d4dff;
 }
+
 
 main {
   width: 100%;
@@ -21,6 +25,20 @@ main .main-perfil {
     margin-bottom: 30px
 
 }
+
+main .main-perfil #imagen-princial
+{
+
+  max-width: 90%;
+  max-height: 95%;
+  object-fit: contain;
+  place-self: center;
+  margin-left: 20px;
+
+}
+
+
+
 
 main .main-perfil .main-perfil-container {
 
@@ -88,7 +106,7 @@ main .main-descripcion {
   /*border-left: #4d4dff solid 3px;*/
   position: relative;
   place-self: center;
-  margin-right: 160px;
+  margin-right: 25px;
 
 
 
@@ -103,16 +121,18 @@ main .main-descripcion .main-descripcion-container {
 }
 */
 .saludo {
-  font-size: 10rem;
+  font-size: 6rem;
   place-self: center;
-  text-align: center;
-
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
 }
 
 .descripcion {
   font-size: 2rem;
   place-self: center;
   text-align: justify;
+  font-family: 'Noto Sans Display', sans-serif;
+
 }
 
 

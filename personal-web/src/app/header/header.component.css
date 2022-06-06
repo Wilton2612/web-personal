@@ -5,14 +5,14 @@
 
 nav {
   width: 100%;
-  font-size: 2rem;
-  background-color: #4d4dff;
+  font-size: 2.3rem;
+  background-color:#646FD4;
   height: 100px;
-  /*padding-top: 40px;
-  padding-bottom: 40px;
-  */
   display: grid;
   grid-template-columns: 1fr 1fr;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Secular One', sans-serif;
+
 }
 
 nav .nav-name {
@@ -24,7 +24,7 @@ nav .nav-name {
 nav .nav-name a {
   color: white;
   text-decoration: var(--decoracion);
-  font-size: 2.8rem;
+  font-size: 3.0rem;
 }
 
 nav .nav-links-container {
