@@ -53,6 +53,7 @@ main .main-perfil .main-perfil-container {
 
 }
 
+/*
 main .main-perfil .main-perfil-container img {
   width: 100%;
   border-radius: 250px;
@@ -77,7 +78,7 @@ main .main-perfil .main-perfil-container img {
 
 .redes-value {
 
-  /* background-color: green;*/
+
   display: var(--organizar-display);
   text-align: center;
 }
@@ -98,6 +99,9 @@ main .main-perfil .main-perfil-container img {
   display: var(--organizar-display);
   color: #884dff;
 }
+*/
+
+
 
 main .main-descripcion {
 
