@@ -1,7 +1,7 @@
 main {
   width: 100%;
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   padding-left: 200px;
   padding-right: 200px;
 }
@@ -32,11 +32,12 @@ main .introduccion .description {
 }
 
 main .moto {
+  width: 80%;
   place-self: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-bottom: 100px;
-  margin-top: -80px;
+  margin-top: 60px;
   border-radius: 5px 5px 5px 5px;
   box-shadow: 7px 7px 15px #4d4dff;
 
@@ -61,7 +62,7 @@ main .moto .image-moto {
 main .moto .moto-title h3
 {
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2.5rem;
   border-left: #4d4dff solid 6px;
   color: #4d4dff;
   margin-top: 40px;
@@ -74,7 +75,7 @@ main .moto .moto-title h3
 
 main .moto .moto-title p
 {
-  font-size: 2rem;
+  font-size: 1.7rem;
   text-align: justify;
   font-family: 'Roboto', sans-serif;
 
@@ -94,6 +95,7 @@ main .moto .image-moto img {
 
 
 main .ciclas {
+  width: 80%;
   place-self: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -122,10 +124,10 @@ main .ciclas .image-ciclas {
 main .ciclas .ciclas-title h3
 {
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2.5rem;
   border-left: #4d4dff solid 6px;
   color: #4d4dff;
-
+  margin-top: 40px;
   margin-bottom: 30px;
   padding-left: 30px;
   font-family: 'Secular One', sans-serif;
@@ -135,7 +137,7 @@ main .ciclas .ciclas-title h3
 
 main .ciclas .ciclas-title p
 {
-  font-size: 2rem;
+  font-size: 1.7rem;
   text-align: justify;
   font-family: 'Roboto', sans-serif;
 
@@ -152,6 +154,7 @@ main .ciclas .image-ciclas img {
 }
 
 main .web {
+  width: 80%;
   place-self: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -176,9 +179,10 @@ main .web .image-web {
 main .web .web-title h3
 {
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2.5rem;
   border-left: #4d4dff solid 6px;
   color: #4d4dff;
+  margin-top: 40px;
   margin-bottom: 30px;
   padding-left: 30px;
   font-family: 'Secular One', sans-serif;
@@ -188,7 +192,7 @@ main .web .web-title h3
 
 main .web .web-title p
 {
-  font-size: 2rem;
+  font-size: 1.7rem;
   text-align: justify;
   font-family: 'Roboto', sans-serif;
 
@@ -203,4 +207,16 @@ main .web .image-web img {
   margin-left: 70px;
   margin-top: 40px;
   margin-bottom: 30px;
+}
+
+
+/*MEDIA QUERY PARA TABLETS*/
+@media(max-width: 768px)
+{
+  main{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+
 }

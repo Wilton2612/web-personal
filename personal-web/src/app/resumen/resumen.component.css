@@ -6,20 +6,22 @@
 main {
   width: 100%;
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   /*font-size: 2.0rem;*/
-  padding-left: 100px;
-  padding-right: 100px;
+ /*padding-left: 100px;
+  padding-right: 100px;*/
   /*background-color: #7fddf0;*/
 }
 
 main .resumen {
+  width: 50%;
   font-size: 4rem;
   color: black;
+  place-self: center;
   text-align: center;
   border-bottom: #4d4dff solid 4px;
-  margin-left: 200px;
-  margin-right: 200px;
+  /*margin-left: 260px;
+  margin-right: 260px;*/
   margin-top: 20px;
   margin-bottom: 30px;
   font-family: 'Secular One', sans-serif;
@@ -44,11 +46,13 @@ main .title-programming{
 
 
 main .Lenguages-programming {
-
+  width: 50%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   place-self: center;
   padding-top: 8px;
+  margin-left: 200px;
+  margin-right: 200px;
   position: relative;
   border-radius: 5px 5px 5px 5px;
   -webkit-box-shadow: -1px 6px 31px 2px rgba(77,77,255,1);
@@ -64,7 +68,7 @@ main .Lenguages-programming .css {
 main .Lenguages-programming div {
   display: grid;
   text-align: center;
-  grid-auto-columns: 180px;
+  /*grid-auto-columns: 180px;*/
   justify-items: center;
 }
 
@@ -77,11 +81,14 @@ div p
 
 
 main .tools {
-
+  width: 50%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   place-self: center;
   padding-top: 8px;
+   /*grid-auto-columns: 180px*/
+  margin-left: 200px;
+  margin-right: 200px;
   position: relative;
   border-radius: 5px 5px 5px 5px;
   -webkit-box-shadow: -1px 6px 31px 2px rgba(77,77,255,1);
@@ -96,7 +103,7 @@ main .tools div {
   text-align: center;
   /*grid-auto-columns: 192px;*/
   justify-items: center;
-  grid-auto-columns: 180px
+  /*grid-auto-columns: 180px*/
 }
 
 main .tools .flask{
@@ -107,11 +114,11 @@ main .tools .flask{
 
 
 main .last {
+  width: 50%;
   place-self: center;
   font-size: 2rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-
   margin-top: 60px;
   margin-left: 200px;
   margin-right: 200px;
@@ -144,6 +151,8 @@ main .last .lenguages {
   list-style-type: none;
 
 }
+
+
 li {
   line-height: 40px;
   border-bottom: #4d4dff solid 6px;
@@ -160,7 +169,43 @@ h3 {
 }
 
 
+/*MEDIA QUERY PARA TABLETS*/
+@media(max-width: 768px)
+{
+  main .resumen{
 
+
+    border-bottom: #4d4dff solid 4px;
+    /*padding-left: 30px;
+    padding-right: 30px;*/
+  }
+  main .Lenguages-programming
+  {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  main .Lenguages-programming div {
+
+    text-align: center;
+    justify-items: center;
+
+  }
+
+  main .tools div {
+    text-align: center;
+    justify-items: center;
+
+  }
+
+  main .last
+  {
+
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+}
 
 /*h2{
 
