@@ -170,8 +170,9 @@ main .main-descripcion .botones .btn{
 
   main{
 
-    grid-template-rows: repeat(2, 1fr);
     grid-template-columns: none;
+    grid-template-rows: repeat(2, 1fr);
+
 
   }
 
@@ -186,17 +187,7 @@ main .main-descripcion .botones .btn{
 
   }
 
-  /*
-  main .main-perfil #imagen-princial
-  {
 
-    max-width: 90%;
-    max-height: 95%;
-    object-fit: contain;
-    place-self: center;
-    margin-left: 20px;
-
-  }*/
   main .main-descripcion {
 
     width:600px;
@@ -216,3 +207,65 @@ main .main-descripcion .botones .btn{
 }
 
 
+/*MEDIA QUERY PARA MÓVILES*/
+@media(max-width: 300px)
+{
+
+  main .main-perfil {
+
+
+    width:100%;
+    height: 180px;
+    place-self: center;
+    margin-bottom: 0px;
+    margin-top: 90px;
+    /*border: black solid 2px;*/
+
+  }
+
+  main .main-descripcion {
+
+    width:100%;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .saludo {
+    font-size:1.5rem;
+  }
+
+
+  .descripcion {
+    font-size: 1rem;
+  }
+
+  main .main-descripcion .botones .btn{
+
+    border-bottom: #4d4dff solid 3px;
+    place-self: left center;
+    font-size: 1rem;
+
+
+  }
+
+  main .main-perfil #imagen-princial
+{
+
+  max-width: 70%;
+  max-height: 70%;
+  display: block;
+  margin:auto;
+
+}
+
+/*
+main .main-perfil div
+{
+
+
+  place-self: center;
+
+
+}
+*/
+}

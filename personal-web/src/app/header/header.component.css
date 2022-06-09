@@ -3,18 +3,45 @@
   --organizar-display: inline-block;
 }
 
+
 nav {
   width: 100%;
-  font-size: 2.3rem;
-  background-color:#646FD4;
+  background-color: #646fd4;
   height: 100px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   /*font-family: 'Roboto', sans-serif;*/
-  font-family: 'Secular One', sans-serif;
+  font-family: "Secular One", sans-serif;
+}
+
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#menu .pri {
+  list-style: none;
+  text-decoration: none;
+  background-color: #9BA3EB;
+  border-radius: 2px;
+  display: none;
 
 }
 
+#menu .big {
+  list-style: none;
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 2.2rem;
+
+}
+
+#menu .big li {
+
+place-self: center;
+
+}
 nav .nav-name {
   justify-self: start;
   align-self: center;
@@ -24,12 +51,15 @@ nav .nav-name {
 nav .nav-name a {
   color: white;
   text-decoration: var(--decoracion);
-  font-size: 3.0rem;
+  font-size: 3rem;
 }
 
-nav .nav-links-container {
+nav .pri {
   place-self: center;
 }
+
+
+
 
 .about {
   text-decoration: var(--decoracion);
@@ -38,40 +68,26 @@ nav .nav-links-container {
 
 .resumen {
   text-decoration: var(--decoracion);
-
-  padding-left: 25px;
   color: white;
 }
 
 .proyecto {
   text-decoration: var(--decoracion);
-  padding-left: 25px;
   color: white;
 }
-
-.contacto {
-  text-decoration: var(--decoracion);
-
-  padding-left: 25px;
-  color: white;
-}
-
 
 
 /*MEDIA QUERY PARA TABLETS*/
-@media(max-width: 768px)
-{
-
+@media (max-width: 768px) {
   nav {
     width: 100%;
     font-size: 2.3rem;
-    background-color:#646FD4;
+    background-color: #646fd4;
     height: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     /*font-family: 'Roboto', sans-serif;*/
-    font-family: 'Secular One', sans-serif;
-
+    font-family: "Secular One", sans-serif;
   }
 
   nav .nav-name {
@@ -79,24 +95,22 @@ nav .nav-links-container {
     align-self: center;
     margin-left: 20px;
   }
-
 }
 
 /*MEDIA QUERY PARA TELEFONOS*/
-@media(max-width: 300px)
-{
+@media (max-width: 300px) {
+  /** {
+    padding: 0px;
+    margin: 0px;
+  }
 
   nav {
     width: 100%;
-    height:9%;
-    position:fixed;
-
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    /*font-family: 'Roboto', sans-serif;*/
-    font-family: 'Secular One', sans-serif;
-    z-index: 1;
-
+    height: 100%;
+    font-family: "Secular One", sans-serif;
+    font-size: 1rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   nav .nav-links {
@@ -104,5 +118,136 @@ nav .nav-links-container {
     grid-template-rows: 1fr 1fr;
   }
 
+  nav .nav-name a {
+    font-size: 2rem;
+  }
 
+  nav .links .fuera {
+    display: none;
+    list-style: none;
+  }
+  nav .links .opciones {
+    list-style: none;
+    text-decoration: none;
+    padding-top: 2px;
+  }
+
+   #op{
+
+    border-bottom: #dbdffd solid 2px;
+  }
+
+  nav .links .opciones li {
+    list-style: none;
+    text-decoration: none;
+    display: none;
+    background-color: #9BA3EB;
+    border-radius: 2px;
+  }
+
+  nav .links li a {
+    padding-left: 0px;
+  }
+
+  nav .links li a:hover {
+    color: #dbdffd;
+  }
+
+
+  nav .links ul li:hover > ul
+  {
+    display: block;
+  }
+*/
+
+  /* menu */
+
+
+  #menu .big {
+    list-style: none;
+    text-decoration: none;
+    display: none;
+    background-color: #9BA3EB;
+    border-radius: 2px;
+  }
+
+#menu .pri
+{
+  display: block;
+}
+
+  nav .nav-name a {
+    font-size: 2rem;
+  }
+  #menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* items del menu */
+
+  #menu ul li {
+    background-color: #9BA3EB;
+    border-radius: 4px;
+  }
+
+  /* enlaces del menu */
+
+  #menu ul a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 10px;
+    font-family: "Secular One", sans-serif;
+    letter-spacing: 1px;
+  }
+
+  /* items del menu */
+
+  #menu ul li {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* efecto al pasar el ratón por los items del menu */
+
+  #menu ul li:hover {
+    background: #242F9B;
+  }
+
+  /* menu desplegable */
+
+  #menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #eee;
+    padding: 0;
+  }
+
+  /* items del menu desplegable */
+
+  #menu ul ul li {
+    float: none;
+    width: 95px;
+  }
+
+  /* enlaces de los items del menu desplegable */
+
+  #menu ul ul a {
+    line-height: 120%;
+    padding: 10px 15px;
+  }
+
+  /* items del menu desplegable al pasar el ratón */
+
+  #menu ul li:hover > ul {
+    display: block;
+  }
 }
