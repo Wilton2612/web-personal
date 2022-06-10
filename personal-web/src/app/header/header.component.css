@@ -98,7 +98,7 @@ nav .pri {
 }
 
 /*MEDIA QUERY PARA TELEFONOS*/
-@media (max-width: 300px) {
+@media (max-width: 400px) {
   /** {
     padding: 0px;
     margin: 0px;
@@ -159,6 +159,7 @@ nav .pri {
     display: block;
   }
 */
+
 
   /* menu */
 
